@@ -1,0 +1,12 @@
+port:
+  Name: /dev/ttyUSB0
+  Baud: 9600
+  ReadTimeout: 3
+  Addr: 123
+
+img:
+  left: ./img/left.jpeg
+  right: ./img/right.jpeg
+  monitor: ./img/monitor.jpeg
+
+nextPort: 65535

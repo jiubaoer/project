@@ -1,0 +1,15 @@
+syntax="proto3";
+
+option go_package="./;dis";
+
+service Algo {
+  rpc GetDis(DisRequest) returns (DisReply) {}
+}
+
+message DisRequest {
+  string path = 1;
+}
+
+message DisReply {
+  int32 dis = 1;
+}
